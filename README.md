@@ -19,9 +19,13 @@
 
 ##### Once Class Codes are sent to the API it returns the Questions that are needed for each Carrier and Class Code:
 
-![Company-Specifics](https://user-images.githubusercontent.com/40578449/113196387-4d60ec00-9218-11eb-8a66-ee6c28cca364.PNG)
+![Company-Specifics](https://user-images.githubusercontent.com/40578449/113196725-ac266580-9218-11eb-96f7-e4638d704005.PNG)
 
 ##### After the Agent posts the Class Codes specific questions to the API they are returned with Rates for each Carrier:
 
+![Demo-Rates](https://user-images.githubusercontent.com/40578449/113196976-f3145b00-9218-11eb-937d-2b374aa6225c.PNG)
+
 ##### Note: we are also utilizing an overlay spinner while we await the API requests:
+
+![Spinning-Overlay](https://user-images.githubusercontent.com/40578449/113197025-032c3a80-9219-11eb-803a-1e8d8177eb41.PNG)
 

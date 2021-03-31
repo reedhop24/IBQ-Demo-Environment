@@ -11,9 +11,15 @@
 
 ##### The UI makes three API calls in order to obtain rates, the first of which is to mock sending the Agency's collected JSON data from their UI to our API. We collect a sample file of all of the data they collect prior to the demo. Once we are in the demo, on the Get Rates button this will send the data to our API:
 
+![Get-Rates-IBQ](https://user-images.githubusercontent.com/40578449/113196250-1ee31100-9218-11eb-81a4-ed187f803626.PNG)
+
 ##### The initial Start Quote Post then returns all of the Class Codes that pertain to each of the Carriers supported by IBQ:
 
+![Select-Class-Code](https://user-images.githubusercontent.com/40578449/113196338-3f12d000-9218-11eb-9d8d-334e02bd8896.PNG)
+
 ##### Once Class Codes are sent to the API it returns the Questions that are needed for each Carrier and Class Code:
+
+![Company-Specifics](https://user-images.githubusercontent.com/40578449/113196387-4d60ec00-9218-11eb-8a66-ee6c28cca364.PNG)
 
 ##### After the Agent posts the Class Codes specific questions to the API they are returned with Rates for each Carrier:
 

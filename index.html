@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.18.2/dist/bootstrap-table.min.css">
+        
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Your Agency UI</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+        <div class="step-header" id="main-button">
+            <button id="rates-ibq" type="button" class="btn btn-primary">Get Rates From IBQ</button>
+        </div>
+        <div class="container" id="class-cd-container">
+            <div class="step-header">
+                <h3>Select Class Code</h3>
+            </div>
+            <div id="class-cd-answers">
+
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <button class="btn btn-primary" id="class-cd-btn">Next</button>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="questions-container">
+            <div class="step-header">
+                <h3>Select Class Code</h3>
+            </div>
+            <div id="question-cd-answers">
+
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <button class="btn btn-primary" id="question-cd-btn">Next</button>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="rates-container">
+            <div class="step-header">
+                <h3>Rates</h3>
+            </div>
+            <div id="rate">
+                <table class="table" id="rate-table">
+                    <thead>
+                        <tr>
+                          <th scope="col">Company Name</th>
+                          <th scope="col">Premium</th>
+                          <th scope="col">Bridge URL</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <script src="app.js"></script>
+        <script src="classes.js"></script>
+        <script src="starter.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/bootstrap-table@1.18.2/dist/bootstrap-table.min.js"></script>
+        <script src="//code.jquery.com/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@2.1.7/dist/loadingoverlay.min.js"></script>
+    </footer>
+</html>

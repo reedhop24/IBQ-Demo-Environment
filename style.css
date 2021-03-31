@@ -1,0 +1,95 @@
+/* App */
+
+#bus-desc {
+    margin-top: 25px;
+    border: 2px solid #acb9c9;
+    border-radius: 5px;
+}
+
+#search:hover {
+    background-color: white;
+    color: #338ff1;
+}
+
+.table-row {
+    margin-bottom: 50px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border-radius: 5px;
+}
+
+.message {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+input:focus {
+    outline: 0;
+    box-shadow: 0 0 8px #338ff1;
+}
+
+td {
+    font-size: small;
+}
+
+.question-header {
+    margin-bottom: 20px;
+}
+
+.last-input {
+    margin-bottom: 30px;
+}
+
+.step-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#main-button {
+    margin-top: 30px;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+.rate {
+    color: #00eb00;
+}
+
+/* Containers */
+#class-cd-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    display: none;
+}
+
+#questions-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    display: none;
+}
+
+#rates-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    display: none;
+}
